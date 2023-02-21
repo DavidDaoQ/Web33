@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form đăng ký</title>
+    <style>
+      form {
+        background-color: #f2f2f2;
+        padding: 20px;
+        max-width: 500px;
+        margin: auto;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+      }
+
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      caption {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <h2>Đăng ký tài khoản</h2>
+      <label for="username">Tên đăng nhập</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Tên đăng nhập của bạn.."
+      />
+
+      <label for="password">Mật khẩu</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Mật khẩu của bạn.."
+      />
+
+      <label for="email">Email</label>
+      <input
+        type="text"
+        id="email"
+        name="email"
+        placeholder="Email của bạn.."
+      />
+
+      <button type="submit">Đăng ký</button>
+    </form>
+    <br /><br /><br />
+
+    <table>
+      <caption>
+        Danh sách sản phẩm
+      </caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Tên sản phẩm</th>
+          <th>Giá tiền</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Sản phẩm A</td>
+          <td>10,000 VNĐ</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Sản phẩm B</td>
+          <td>20,000 VNĐ</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Sản phẩm C</td>
+          <td>30,000 VNĐ</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
