@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form HTML CSS</title>
-</head>
+    <title>Form</title>
+  </head>
 
-<body>
-    <form action="">
-        <h2>Form đăng nhập</h2>
-        <label for="login-id">Tên đăng nhập:</label>
-        <input type="text" id="login-id" />
-        <br /><br />
-        <label for="pass-id">Mật khẩu</label>
-        <input type="text" id="pass-id" />
-        <br /><br />
-        <input type="submit" value="Đăng ký" /><br /><br />
-        <input type="file" name="file" id="file" value="file up lên" />
-        <br /><br />
-        <input type="color" value="chọn màu đi" /><br />
-        <br />
-        <input type="button" value="Đăng nhập" /> <br /><br />
-        <input type="hidden" name="" value="ảo thật đấy" /> <input type="search" name="" id="">
+  <body>
+    <form action="#">
+      <h2>đăng ký</h2>
+      <label for="login-id">Tên đăng ký:</label>
+      <input type="text" name="" id="login-id" /><br /><br />
+      <label for="pass">Mật khẩu:</label
+      ><input type="password" name="" id="pass" /><br /><br />
+      <input type="radio" name="gender" id="gender-male" checked />
+      <label for="gender-male">nam</label>
+      <input type="radio" name="gender" id="gender-female" />
+      <label for="gender-female">Nữ</label>
+      <input type="radio" name="gender" id="gender-other" />
+      <label for="gender-other">Khác</label><br /><br />
+      <input type="checkbox" name="" id="term-agg" checked />
+      <label for="term-agg">Chấp nhận điều khoản</label><br /><br />
+      <input type="checkbox" name="" id="letter" />
+      <label for="letter">Chấp nhận cover letter.</label> <br /><br />
+      <input type="submit" value="đăng ký" />
+      <br /><br />
+      <select name="" id="">
+        <option value="">Phone</option>
+        <option value="">Car</option>
+        <option value="">Motor</option>
+      </select>
     </form>
-</body>
-
+  </body>
 </html>
